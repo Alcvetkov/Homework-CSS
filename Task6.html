@@ -1,0 +1,57 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/Task6.css" type="text/css" />
+</head>
+<body>
+	<header>
+		<h2>3col Fixed Header</h2>
+		<p>Exercise uses one graphic with 3 color bars  positioned in the proper pixel position. Doesn't allow any  of the 
+		width to change. See color note in the content selection.
+		</p>
+		<br />
+	</header>
+	
+	<section id="content1">
+		<div id="lis">
+			<h2 id="navTitle">This is the navigation</h2>
+			<ul>
+				<li>CHECK</li> <br />
+				<li>OUT</li><br />
+				<li>MY</li><br />
+				<li>NOTES</li><br />
+			</ul>
+		</div>
+	</section>
+	
+	<section id="content2">
+		<h2>CONTENT: notes on this 3col Fixed assignment</h2>
+		<p>As in the 2 column exercise, the color change is detectable where the div meets the .jpg background. I used the same 
+		hexidecimal number in the PS doc as was used in the HTML?
+		</p>
+		<p>The exercise uses a main wrapper background image as one fixed strip. I get serious Float Drop when I resize(reduce) 
+		the browser window. I think that is what "display: inline; /* stops IE doubling margin on float" is for, but 
+		would like further explainention to understand this comment.
+		</p>
+		<p>Is keeping the #wrapper div necessary in a stylesheet if there is also going to be separateversion wrappers 
+		as we have here to contain the diffrent background images? Or perhaps this is an example of an inner div as the 
+		book suggersts? I am still confused on that detail.
+		</p>
+		<p>Even though I have auto margin set on the wrapper div, the page still huggs the left side? I've tried it in 
+		all of them, but it won't butch?
+		</p>
+		<p>Obviously, this footer has a mind of it's own...It's in the wrapper, but the "clear" seems to be allowing it 
+		ouside. However, when I remove the clear, it hugs the bottom of the header?</p>
+	</section>
+	
+	<section id="content3">
+		<div id="fail">
+			<h2>This is the failed right side</h2>
+			
+		</div>
+	</section>
+	
+	<footer>
+		<p id="bot">&reg2008 Bornais not so great at Stying with CSS</p>
+	</footer>
+</body>
+</html>

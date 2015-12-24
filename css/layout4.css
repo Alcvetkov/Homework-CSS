@@ -1,0 +1,32 @@
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: cadetblue;
+}
+
+section#content1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 1%;
+    width: 30%;
+    height: 500px;
+    background-color: fuchsia ;
+	display: inline-block;
+}
+
+section#content2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 1%;
+	width: 67.6%;
+	height: 500px;
+	background-color: lime ;
+	display: inline-block;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: dodgerblue;
+}
